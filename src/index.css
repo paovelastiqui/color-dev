@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-size: 62.5%;
+    font-family:'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dee0e640;
+}
+
+h1 {
+    font-size: 7rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+    color: #000026;
+    text-align: center;
+    padding-top: 3rem;
+    text-shadow: 2px 3px 0px #fff;
+}
+
+h2 {
+    font-size: 5rem;
+    padding: 4rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    color: #000026;
+    text-shadow: 2px 3px 0px #fff;
+}
+
+/* NAV */
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+#header .container-fluid {
+    background-color: rgb(199, 193, 193);
+    color:rgb(37, 29, 29);
+    font-weight: bold;
+    height: 10vh;
+}
+
+#header .nav-item a{
+    color:rgb(15, 14, 14);
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+/*GENERATOR*/
+
+.generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .generator__info {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+} */
+
+#palleteContainer {
+    width: auto;
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.palleteItem {
+    width: 50vw;
+    height: 6vh;
+    transition: background-color .5s;
+    border-radius: 2rem;
+}
+
+.palleteItem span {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 1.5rem;
+    display: inline-block;
+    min-width: 15rem;
+    height: 6vh;
+    border-radius: 2rem;
+}
+
+.generator button {
+    border: 0;
+    margin: 2.5rem;
+    width: 25rem;
+    height: 5rem;
+    outline: none;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: #000026;
+    color: #fff;
+    transition: 0.3s;
+}
